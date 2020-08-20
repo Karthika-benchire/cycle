@@ -6,6 +6,13 @@ import java.util.Optional;
 import java.util.Queue;
 import java.util.concurrent.BlockingQueue;
 
+/**
+ * CyclePrizeCalculater is used to calculate the prize for different set of cycle model as thread
+ * by implementing the runnable interface.
+ * 
+ * @author maheshkumar.a.s
+ *
+ */
 public class CyclePrizeCalculater implements Runnable {
 
 	private final CycleParts cycleParts;

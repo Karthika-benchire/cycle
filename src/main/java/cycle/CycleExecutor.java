@@ -14,6 +14,13 @@ import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+/**
+ * CycleExecutor class used to execute cyclePrizeCalculator with
+ * the help of Multithreading and Blocking Queue.
+ * 
+ * @author Karthika
+ *
+ */
 public class CycleExecutor {
 
 	private static final int MY_THREADS=10;
