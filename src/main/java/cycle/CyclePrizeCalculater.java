@@ -106,6 +106,7 @@ public class CyclePrizeCalculater implements Runnable {
 			cyclePrize.setTyre(tyrePrize);
 		}
 		cyclePrize.setTotalAmount(prize);
+		cyclePrize.setNoOfCycles(parts.getNoOfCycle());
 		if(parts.getNoOfCycle()>1) {
 			prize=prize*parts.getNoOfCycle();
 			cyclePrize=CyclePrize.MultiplyPrize(parts.getNoOfCycle(), cyclePrize);

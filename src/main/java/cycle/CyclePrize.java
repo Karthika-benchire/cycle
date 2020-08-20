@@ -131,8 +131,6 @@ public class CyclePrize {
 			System.out.println("No of Cycles : "+cyclePrize.getNoOfCycles());
 		}if(cyclePrize.getTotalAmount()!=0) {
 			System.out.println("TotalAmount : "+cyclePrize.getTotalAmount());
-		}if(cyclePrize.getNoOfCycles()!=0) {
-			System.out.println("No of Cycles : "+cyclePrize.getNoOfCycles());
 		}
 		
 				
